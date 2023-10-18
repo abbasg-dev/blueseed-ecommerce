@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "blueseed-ecom"
+  },
+  "targets": {
+    "blueseed-ecom": {
+      "hosting": {
+        "dev": [
+          "dev-blueseed-ecom"
+        ],
+        "stg": [
+          "stg-blueseed-ecom"
+        ],
+        "prod":[
+          "blueseed-ecom"
+        ]
+      }
+    }
+  }
+}
